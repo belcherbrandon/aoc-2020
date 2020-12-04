@@ -24,7 +24,7 @@ object Utils {
         return input.split(delimiter)
     }
 
-    fun stringFromFile(path: String) : String {
+    private fun stringFromFile(path: String) : String {
         return this.javaClass.classLoader.getResource(path).readText().dropLast(1)
     }
 

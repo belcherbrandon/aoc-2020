@@ -1,5 +1,6 @@
 const val COMMA = ","
 const val LINE = "\n"
+const val DOUBLE_LINE = "\n\n"
 const val COMMA_SPACE = ", "
 
 object Utils {
